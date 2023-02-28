@@ -19,14 +19,14 @@ export default function Minicart() {
     minidata.forEach(function (x) { counts[x.id] = (counts[x.id] || 0) + 1; });
           
     let cardata = [];
-    let uniqueObject = {};
+    let unique = {};
 
     for (let i in minidata) {
-        let objTitle = minidata[i]['id'];
-        uniqueObject[objTitle] = minidata[i];
+        let id = minidata[i]['id'];
+        unique[id] = minidata[i];
     }
-    for (let i in uniqueObject) {
-        cardata.push(uniqueObject[i]);
+    for (let i in unique) {
+        cardata.push(unique[i]);
     }
     
     const clearcart = () => {
