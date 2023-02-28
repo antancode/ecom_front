@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card, Image } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react'
 
 export default function CartItem({ cart, count }) {
 

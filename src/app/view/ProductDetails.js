@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {Button, Image, Label } from 'semantic-ui-react';
-import { useParams, redirect } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { server } from '../config/axios';
 import { useDispatch } from 'react-redux';
 import { cartdatas } from '../redux/Action';

@@ -70,7 +70,7 @@ export default function Filter() {
                 console.log(err);
             })
         dispatch(filterdatas(filterpoint));
-    }, [setFilterdata, filterpoint]);
+    }, [dispatch, setFilterdata, filterpoint]);
 
 
     return (

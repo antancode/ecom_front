@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Icon, Image, Label } from 'semantic-ui-react';
+import { Card, Image, Label } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
 export default function Item({product}) {

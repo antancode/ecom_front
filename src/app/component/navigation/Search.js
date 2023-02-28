@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-import { Dropdown, Search } from 'semantic-ui-react'
+import { Search } from 'semantic-ui-react'
 import { server } from '../../config/axios';
 
 export default function SearchResult() {
