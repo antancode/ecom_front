@@ -1,0 +1,46 @@
+.mincart{
+    position: fixed;
+    width: 250px;
+    height: calc(100vh - 42px);
+    right: 0;
+    top: 42px;
+    z-index: 5;
+    padding: 10px;
+    background-color: #FFF;
+    border-left: solid 1px #ccc;
+    overflow: auto;
+
+    .cart{
+
+        
+
+        .qty{
+            display: block;
+            font: {
+                size: 12px;
+                weight: 400;
+            }
+            color: #000000;
+            margin-top: 5px;
+        }
+
+        .sale-price{
+            display: block;
+            font: {
+                size: 12px;
+                weight: 400;
+            }
+            color: #000000;
+            margin-top: 5px;
+        }
+
+        .total-price{
+            display: block;
+            font: {
+                size: 12px;
+                weight: 500;
+            }
+            color: #000000
+        }
+    }
+}
